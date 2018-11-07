@@ -52,8 +52,7 @@ nav ul li {
 }
 
 nav a {
-    color: #333;
-    font-size: 15px;
+    font-size: 18px;
     padding: 5px 15px;
     color: #777777;
     text-decoration: none;
@@ -75,7 +74,7 @@ nav ul li:last-chld a {
 }
 
 
-#left-column  {
+.left-column  {
     background: white;
     color: #777777;
     padding: 45px 45px 60px 45px;
@@ -86,7 +85,7 @@ nav ul li:last-chld a {
     margin-bottom: 30px;
 }
 
-#left-column .inline-img {
+.left-column .inline-img {
     margin-left: 30px;
 }
 p {
@@ -117,7 +116,7 @@ form textarea {
 }
 
 form button {
-    width: 90px;
+    width: 130px;
     background: #4aaaa5;
     color: white;
     margin-left: 10px;
@@ -134,57 +133,73 @@ form button {
 
 
 
-.clearfix {
+.clearfix::after {
+    content: "";
     display: block;
     clear: both;
 }
 
 .photos {
-    margin: 0 30px 15px 0;
     text-align: center;
+    margin: 0 30px 15px 0;
+    margin-bottom: 50px;
 }
 
 #port1 {
+    margin-left: 30px;
     background: url("../images/riyadh.png"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
     height: 250px;
+    float: left;
 }
 #port2 {
-    background: url("../images/2.jpeg"); 
+    background: url("../images/2.jpg"); 
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 250px;
+    float: left;
 }   
 #port3 {
-    background: url("../images/3.jpeg"); 
+    margin-left: 30px;
+    background: url("../images/3.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
     height: 250px;
+    float: left;
 }   
 #port4 {
-    background: url("../images/4.jpeg"); 
+    background: url("../images/4.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
     height: 250px;
+    float: left;
 }   
 #port5 {
-    background: url("../images/5.jpeg"); 
+    margin-left: 30px;
+    background: url("../images/5.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
     height: 250px;
+    float: left;
 }   
 
-
+h3 {
+    background: #4aaaa5;
+    color: white;
+    margin-bottom: 90px;
+    padding: 20px;
+    margin: 180px 0 10px 0;
+}
 
 
 
